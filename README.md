@@ -53,7 +53,14 @@ O tipo de exercício preferido do usuário também personaliza o treino. Algumas
 Recursos adicionais para entender melhor o projeto:
 - [Fundamentos de Engenharia de Prompt](#)
 - [Boas Práticas de Prompt](#)
+  
+## Explicação das Boas Práticas Aplicadas
 
+1. Estrutura Clara: O prompt é estruturado por etapas (identificação de biotipo, frequência de treino, tipo de exercício) que facilitam o entendimento para o modelo.
+2. Solicitações Específicas: Cada etapa pede informações exatas do usuário para evitar respostas vagas.
+3. Personalização Detalhada: O prompt indica como personalizar o plano com exemplos e orientações para cada perfil, assegurando que o modelo gere respostas adequadas.
+4. Exemplo de Resposta: O exemplo final ajuda o modelo a estruturar a resposta, mantendo o foco no objetivo e no contexto.
+   
 ## 🎯 Prompt para AWS Bedrock
 
 Utilize o seguinte prompt no AWS Bedrock para gerar o plano de treino ideal:
@@ -96,3 +103,8 @@ Você é um assistente de personal trainer especializado em gerar treinos person
 
 Exemplo de resposta para o usuário:
 "Com base nas informações que você forneceu (biotipo endomorfo, 3 dias de treino, e preferência por exercícios de peso livre), aqui está seu plano de treino ideal: ..."
+
+**Nota**: Estruture a resposta para que o plano seja claro e fácil de seguir, com foco na objetividade e precisão.
+
+
+
