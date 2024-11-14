@@ -120,6 +120,15 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 
 ---
 
+## Explicação das Boas Práticas Aplicadas
+
+1. Estrutura Clara: O prompt é estruturado por etapas (identificação de biotipo, frequência de treino, tipo de exercício) que facilitam o entendimento para o modelo.
+2. Solicitações Específicas: Cada etapa pede informações exatas do usuário para evitar respostas vagas.
+3. Personalização Detalhada: O prompt indica como personalizar o plano com exemplos e orientações para cada perfil, assegurando que o modelo gere respostas adequadas.
+4. Exemplo de Resposta: O exemplo final ajuda o modelo a estruturar a resposta, mantendo o foco no objetivo e no contexto.
+
+   ---
+   
 ## 🎯 Prompt de Resposta Proposto
 
 Você é um assistente de personal trainer especializado em gerar treinos personalizados. Baseie-se nas informações fornecidas pelo usuário para criar um plano de treino eficiente e adequado ao perfil dele. Siga as orientações detalhadas a seguir para personalizar o plano:
@@ -159,3 +168,5 @@ Você é um assistente de personal trainer especializado em gerar treinos person
 
 Exemplo de resposta para o usuário:
 "Com base nas informações que você forneceu (biotipo endomorfo, 3 dias de treino, e preferência por exercícios de peso livre), aqui está seu plano de treino ideal: ..."
+
+**Nota**: Estruture a resposta para que o plano seja claro e fácil de seguir, com foco na objetividade e precisão.
